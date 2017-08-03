@@ -1,3 +1,7 @@
+//ModifyHybrid.h is header file for particularly 
+//the hybrid structure generally all the function
+//are from that header in this code.
+
 #include"ModifyHybrid.h"
 #include<fstream>
 
@@ -19,6 +23,7 @@ int main()
 		return 100;
 	}
 	
+	//storing the prefix obtained from file in structure
 	 while (file >> word)
     {
         file >> ch;
